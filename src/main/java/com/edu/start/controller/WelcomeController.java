@@ -13,4 +13,10 @@ public class WelcomeController {
         return "hello";
     }
 
+    @GetMapping
+    @RequestMapping(value = "/hello")
+    public String hello(){
+        return "hello MF";
+    }
+
 }
